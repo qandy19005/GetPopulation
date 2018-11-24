@@ -1,0 +1,12 @@
+h1{
+	color: #A20055;
+	margin: 0px 0px ;
+}
+button{
+	background-color: #8C0044;
+	color: white; 
+}
+#canvas-size{
+	height: 500px;
+	width: 500px;
+}
