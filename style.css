@@ -6,7 +6,15 @@ button{
 	background-color: #8C0044;
 	color: white; 
 }
-#canvas-size{
+section{
+	display: flex;
+	height: 1000px;
+	width: 1000px;
+}
+#canvas-box{
 	height: 500px;
 	width: 500px;
+}
+#map{
+	display: none;
 }

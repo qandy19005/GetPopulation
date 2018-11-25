@@ -39,6 +39,9 @@ function total(xml) {
 	//gril
 	barData.datasets[2].data[i]=x[i].getElementsByTagName("女性人數")[0].childNodes[0].nodeValue;
   }
+  	//地圖回到花蓮縣
+  	document.getElementById("map").src= "https://www.google.com/maps/embed/v1/place?key=AIzaSyCMMeH6lqYwWrj3dCV0F9jjMW6XoJdNm60&q=花蓮縣"
+  	document.getElementById("map").style.display= "block";
   	//產生長條圖
     var ctx = document.getElementById('myChart');
 	var myChart = new Chart(ctx, {
